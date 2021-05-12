@@ -15,10 +15,26 @@ public class CoffeeBean extends Bean {
 		this.origin = origin;
 		this.roast = roast;
 	}
+	
+
+	public String getOrigin() {
+		return origin;
+	}
+
+	public void setOrigin(String origin) {
+		this.origin = origin;
+	}
+
+	public int getRoast() {
+		return roast;
+	}
+
+	public void setRoast(int roast) {
+		this.roast = roast;
+	}
 
 	@Override
 	public String toString() {
 		return "CoffeeBean [type=" +super.getType() + ", origin=" + origin + ", roast=" + roast + "]";
 	}
-	
 }
